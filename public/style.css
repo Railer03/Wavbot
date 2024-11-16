@@ -1,0 +1,101 @@
+
+/* Boton Cerrar sesion */
+.small-button {
+    background-color: #ff4747; 
+    color: white;
+    border: none;
+    padding: 5px 10px; 
+    border-radius: 3px; 
+    font-size: 12px; 
+    cursor: pointer;
+    margin: 5px; 
+    transition: background-color 0.3s ease;
+}
+
+.small-button:hover {
+    background-color: #d13c3c; 
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; 
+    color: #ffffff; 
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+h1, h2 {
+    color: #ffffff;
+}
+
+/* Botones */
+button {
+    background-color: #5865f2; /* Azul Discord */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4752c4; /* Azul más oscuro al pasar el cursor */
+}
+
+/* Links */
+a {
+    color: #5865f2; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Listas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Contenedores */
+.container {
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 10px;
+    background-color: #1e1e1e; /* Gris oscuro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/* public/style.css */
+
+/* Botones grandes */
+.large-button {
+    background-color: #5865f2; /* Azul estilo Discord */
+    color: white;
+    border: none;
+    padding: 20px 40px; /* Más espacio para agrandar el botón */
+    border-radius: 5px;
+    font-size: 20px; /* Texto más grande */
+    cursor: pointer;
+    margin: 15px; /* Más espacio entre los botones */
+    transition: background-color 0.3s ease;
+}
+/*Cursor encima del boton estilo azul*/
+.large-button:hover { 
+    background-color: #4752c4; 
+}

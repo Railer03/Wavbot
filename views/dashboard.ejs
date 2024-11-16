@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dashboard</h1>
+        <p>Bienvenido, <%= user.username %>!</p>
+        <h2>Servidores donde eres administrador y el bot está presente:</h2>
+        <ul>
+            <% adminGuilds.forEach(guild => { %>
+                <li>
+                    <a href="/server/<%= guild.id %>"><button><%= guild.name %></button></a>
+                </li>
+            <% }); %>
+        </ul>
+        <a href="/logout"><button class="small-button">Cerrar sesión</button></a>
+    </div>
+</body>
+</html>
