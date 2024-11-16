@@ -16,7 +16,7 @@ const bot = new Client({
 bot.login(process.env.BOT_TOKEN);//Inicializar bot
 
 bot.once('ready', () => {
-    console.log(`Bot iniciado como ${bot.user.tag}`); //Un print para debuggear si inicia o no
+    console.log(`Bot iniciado como ${bot.user.tag}`);
 });
 
 
